@@ -26,19 +26,21 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/kavyp12/healthcare.git && \
    cd healthcare && \
-   npm install && \
-   echo "PROJECT_ID=66a366ef000c23b29375" >> .env.local && \
-   echo "API_KEY=42a4cfc422252fd5f427c0ef612d9b58e7f2a9c29509ada99cae8a599468dcae46289af0faae99cd9607d2b11aa25af4b3b109d55a26f43ceacb0311df9ec231536d50decc38fdc1f313f46f33221daabee492cb4168b7dc077da60c7d094c5429f0eed6d96f5ab34deebb210a624eece268a220ddd8f0d28b50e72f72ddf0e9" >> .env.local && \
+   npm install &&
+   ```
+2. Set up environment variables:
+```bash
+ echo "PROJECT_ID=" >> .env.local && \
+   echo "API_KEY=" >> .env.local && \
    echo "DATABASE_ID=" >> .env.local && \
    echo "PATIENT_COLLECTION_ID=" >> .env.local && \
    echo "DOCTOR_COLLECTION_ID=" >> .env.local && \
    echo "APPOINTMENT_COLLECTION_ID=" >> .env.local && \
    echo "NEXT_PUBLIC_BUCKET_ID=" >> .env.local && \
-   echo "NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1" >> .env.local && \
-   echo "NEXT_PUBLIC_ADMIN_PASSKEY=123456" >> .env.local
-
-
-2.Run the development server:
+   echo "NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1" >> .env.loca
+```
+  
+3.Run the development server:
 ```bash
 npm run dev
 ```
