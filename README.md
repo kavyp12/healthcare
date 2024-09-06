@@ -48,17 +48,3 @@ npm run dev
 Patient: Register or log in to book an appointment.
 Admin: Approve or cancel appointments based on doctor availability. Notifications will be sent to patients via SMS.
 
-## Environment Variables
-The .env.local file should contain the following variables:
-
-PROJECT_ID: Your Appwrite Project ID.
-API_KEY: Your Appwrite API Key.
-DATABASE_ID: Your Appwrite Database ID.
-PATIENT_COLLECTION_ID: ID for the patient collection in Appwrite.
-DOCTOR_COLLECTION_ID: ID for the doctor collection in Appwrite.
-APPOINTMENT_COLLECTION_ID: ID for the appointment collection in Appwrite.
-NEXT_PUBLIC_BUCKET_ID: Your Appwrite bucket ID.
-NEXT_PUBLIC_ENDPOINT: The Appwrite endpoint for your database.
-NEXT_PUBLIC_ADMIN_PASSKEY: The passkey for admin access.
-
-
