@@ -26,7 +26,7 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/kavyp12/healthcare.git && \
    cd healthcare && \
-   npm install &&
+   npm install 
    ```
 2. Set up environment variables:
 ```bash
