@@ -44,10 +44,11 @@ npm run dev
 ```
 
 
-Usage
+## Usage
 Patient: Register or log in to book an appointment.
 Admin: Approve or cancel appointments based on doctor availability. Notifications will be sent to patients via SMS.
-Environment Variables
+
+## Environment Variables
 The .env.local file should contain the following variables:
 
 PROJECT_ID: Your Appwrite Project ID.
