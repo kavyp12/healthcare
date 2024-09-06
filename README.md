@@ -21,4 +21,12 @@ This project is a web-based hospital appointment system that allows patients to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hospital-appointment-system.git
+   git clone https://github.com/kavyp12/healthcare.git
+
+2.Navigate to the project directory:
+ ```bash
+cd healthcare
+
+
+
+
